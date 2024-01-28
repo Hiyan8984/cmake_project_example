@@ -1,0 +1,10 @@
+^C:\USERS\MIN JOON\DESKTOP\CG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/min joon/Desktop/cg" "-BC:/Users/min joon/Desktop/cg/build" --check-stamp-file "C:/Users/min joon/Desktop/cg/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

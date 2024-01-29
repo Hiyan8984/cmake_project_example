@@ -1,3 +1,4 @@
 C:/Users/min joon/Desktop/cg/build/CMakeFiles/cg.dir
+C:/Users/min joon/Desktop/cg/build/CMakeFiles/dep-spdlog.dir
 C:/Users/min joon/Desktop/cg/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/min joon/Desktop/cg/build/CMakeFiles/ZERO_CHECK.dir
